@@ -19,7 +19,6 @@
 .circle {
   position: relative;
   display: block;
-  margin: 2em 0;
   background-color: transparent;
   color: #222;
   text-align: center;
@@ -31,17 +30,19 @@
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #e0f1fc;
+  background-color: #5ebafe;
   content: "";
 }
 
 .circle-inner {
   position: absolute;
-  top: 0;
+  top: 1%;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #e0f1fc;
+  border-radius: 50%;
 }
 
 .circle-wrapper {
@@ -67,7 +68,7 @@
 
 .circle-down {
   display: relative;
-  margin-bottom: 0%;
+  margin-top: -15px;
   width: 100%;
   vertical-align: middle;
   height: 100%;
@@ -87,13 +88,16 @@
 
 .content-container {
   height: 100%;
-  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.content-square {
+  margin-bottom: -10px;
+}
+
 body {
-  max-width: 360px;
-  max-height: 740px;
+  text-shadow: 1px 1px 1px #2a5472cf;
+  background-color: #f6f6f6;
 }
