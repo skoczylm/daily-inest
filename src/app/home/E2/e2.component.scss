@@ -17,6 +17,7 @@ h1 {
   height: 120px;
   width: 120px;
   position: relative;
+  margin-right: 20px;
 }
 
 .circle-cropper .info {
@@ -24,6 +25,7 @@ h1 {
   position: absolute;
   bottom: 0;
   font-weight: bold;
+  color: #5ebafe;
 }
 
 .rounded_face {
@@ -31,6 +33,7 @@ h1 {
   height: 30px;
   width: 30px;
   display: inline;
+  border: 1px solid #5ebafe;
 }
 
 .rounded_number {
@@ -39,7 +42,8 @@ h1 {
   width: 30px;
   position: absolute;
   display: inline;
-  border: blue 2px solid;
+  color: #5ebafe;
+  border: 1px solid #5ebafe;
   text-align: center;
   //background-color: blue;
 }
