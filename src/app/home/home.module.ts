@@ -7,9 +7,14 @@ import { SharedModule } from 'app/shared';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { QuoteService } from './quote.service';
+import { E1 } from './E1/e1.component';
+import { E2 } from './E2/e2.component';
+import { E3 } from './E3/e3.component';
+import { E4 } from './E4/e4.component';
+import { E5 } from './E5/e5.component';
 
 @NgModule({
   imports: [CommonModule, TranslateModule, CoreModule, SharedModule, HomeRoutingModule],
-  declarations: [HomeComponent]
+  declarations: [HomeComponent, E1, E2, E3, E4, E5]
 })
 export class HomeModule {}
