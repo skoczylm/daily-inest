@@ -1,0 +1,51 @@
+h1 {
+  font-family: Lato;
+}
+
+.section {
+  margin: 50px 20px 20px 20px;
+}
+.faces {
+  margin-top: 10px;
+}
+
+.rounded_animal {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.circle-cropper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+
+.circle-cropper .info {
+  padding-left: 40%;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
+
+.rounded_face {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+
+.rounded_number {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  display: inline;
+  border: blue 2px solid;
+  text-align: center;
+  //background-color: blue;
+}
