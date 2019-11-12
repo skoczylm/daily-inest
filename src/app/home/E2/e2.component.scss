@@ -31,7 +31,7 @@ h3 {
 
 .rounded_face {
   border-radius: 50%;
-  margin: 2px;
+  margin: 5px 2px 2px 2px;
   height: 40px;
   width: 40px;
   display: inline;
@@ -40,6 +40,7 @@ h3 {
 
 .rounded_number {
   border-radius: 50%;
+  margin: 5px 2px 2px 2px;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -47,4 +48,9 @@ h3 {
   color: #5ebafe;
   border: 1px solid #5ebafe;
   text-align: center;
+  line-height: 35px;
+}
+
+.circle-inner {
+  background-color: #5ebafe;
 }
