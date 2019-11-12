@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 export class Pokeball {
   @Input() upperText: string;
   @Input() lowerText: string;
-  @Input() height: string;
+  @Input() width: string;
 }
