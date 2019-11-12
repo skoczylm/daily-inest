@@ -19,7 +19,6 @@ import { E1 } from './home/E1/e1.component';
 import { E2 } from './home/E2/e2.component';
 import { E3 } from './home/E3/e3.component';
 import { E4 } from './home/E4/e4.component';
-import { E5 } from './home/E5/e5.component';
 
 @NgModule({
   imports: [
