@@ -12,10 +12,11 @@ import { E4 } from './E4/e4.component';
 import { E5 } from './E5/e5.component';
 
 import { RouterModule } from '@angular/router';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 @NgModule({
   imports:
-  [ BrowserModule, FormsModule,
+  [ BrowserModule, FormsModule, NzButtonModule,
       RouterModule.forRoot([
       { path: '', component: E1 },
       { path: 'e1', component: E1 },
