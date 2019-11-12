@@ -9,6 +9,7 @@ import { E2 } from './E2/e2.component';
 import { E3 } from './E3/e3.component';
 import { E4 } from './E4/e4.component';
 import { E5 } from './E5/e5.component';
+import { FirstPost } from './first-post/first-post.component';
 
 const routes: Routes = [
   Shell.childRoutes([
@@ -17,7 +18,8 @@ const routes: Routes = [
     { path: 'e2', component: E2 },
     { path: 'e3', component: E3 },
     { path: 'e4', component: E4 },
-    { path: 'e5', component: E5 }
+    { path: 'e5', component: E5 },
+    { path: 'firstPost', component: FirstPost }
   ])
 ];
 
