@@ -13,9 +13,10 @@ import { E3 } from './E3/e3.component';
 import { E4 } from './E4/e4.component';
 import { E5 } from './E5/e5.component';
 import { Pokeball } from './components/pokeball/pokeball.component';
+import { FirstPost } from './first-post/first-post.component';
 
 @NgModule({
   imports: [CommonModule, TranslateModule, CoreModule, SharedModule, HomeRoutingModule],
-  declarations: [HomeComponent, E1, E2, E3, E4, E5, Pokeball]
+  declarations: [HomeComponent, E1, E2, E3, E4, E5, Pokeball, FirstPost]
 })
 export class HomeModule {}
