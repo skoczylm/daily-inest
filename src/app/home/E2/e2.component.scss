@@ -2,6 +2,13 @@ h1 {
   font-family: Lato;
 }
 
+.section {
+  margin: 50px 20px 20px 20px;
+}
+.faces {
+  margin-top: 10px;
+}
+
 .rounded_animal {
   border-radius: 50%;
   height: 150px;
@@ -29,4 +36,16 @@ h1 {
   border-radius: 50%;
   height: 30px;
   width: 30px;
+  display: inline;
+}
+
+.rounded_number {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  display: inline;
+  border: blue 2px solid;
+  text-align: center;
+  //background-color: blue;
 }
