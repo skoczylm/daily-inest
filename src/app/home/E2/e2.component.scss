@@ -2,10 +2,11 @@ h1 {
   font-family: Lato;
 }
 
-.rounded_animal {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+.section {
+  margin: 50px 20px 20px 20px;
+}
+.faces {
+  margin-top: 10px;
 }
 
 .circle-cropper {
@@ -13,9 +14,10 @@ h1 {
   background-size: cover;
   background-position: 50%;
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   position: relative;
+  margin-right: 20px;
 }
 
 .circle-cropper .info {
@@ -23,10 +25,25 @@ h1 {
   position: absolute;
   bottom: 0;
   font-weight: bold;
+  color: #5ebafe;
 }
 
 .rounded_face {
   border-radius: 50%;
   height: 30px;
   width: 30px;
+  display: inline;
+  border: 1px solid #5ebafe;
+}
+
+.rounded_number {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  display: inline;
+  color: #5ebafe;
+  border: 1px solid #5ebafe;
+  text-align: center;
+  //background-color: blue;
 }
