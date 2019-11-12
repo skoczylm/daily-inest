@@ -12,8 +12,7 @@ import { E5 } from './E5/e5.component';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent, data: { title: extract('Home') } },
+    { path: '', redirectTo: '/e1', pathMatch: 'full' },
     { path: 'e1', component: E1 },
     { path: 'e2', component: E2 },
     { path: 'e3', component: E3 },
